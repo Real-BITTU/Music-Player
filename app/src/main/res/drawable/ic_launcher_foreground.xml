@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Gradient Headphone band & ear cups -->
+    <!-- Headphone Arch -->
+    <path
+        android:pathData="M32,54 C32,41.85 41.85,32 54,32 C66.15,32 76,41.85 76,54"
+        android:strokeWidth="5"
+        android:strokeLineCap="round">
+        <aapt:attr name="android:strokeColor">
+            <gradient
+                android:startX="32"
+                android:startY="32"
+                android:endX="76"
+                android:endY="54"
+                android:type="linear">
+                <item android:color="#A78BFA" android:offset="0.0" />
+                <item android:color="#38BDF8" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Left Ear Cup -->
+    <path
+        android:pathData="M27,51 C27,48.24 29.24,46 32,46 L33,46 C35.76,46 38,48.24 38,51 L38,65 C38,67.76 35.76,70 33,70 L32,70 C29.24,70 27,67.76 27,65 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="27"
+                android:startY="46"
+                android:endX="38"
+                android:endY="70"
+                android:type="linear">
+                <item android:color="#C084FC" android:offset="0.0" />
+                <item android:color="#818CF8" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Right Ear Cup -->
+    <path
+        android:pathData="M70,51 C70,48.24 72.24,46 75,46 L76,46 C78.76,46 81,48.24 81,51 L81,65 C81,67.76 78.76,70 76,70 L75,70 C72.24,70 70,67.76 70,65 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="70"
+                android:startY="46"
+                android:endX="81"
+                android:endY="70"
+                android:type="linear">
+                <item android:color="#818CF8" android:offset="0.0" />
+                <item android:color="#38BDF8" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Center Play/Music Icon Soundwaves inside headphones -->
+    <!-- Bar 1 -->
+    <path
+        android:fillColor="#F472B6"
+        android:pathData="M44,52 L46,52 A1,1 0 0 1 47,53 L47,63 A1,1 0 0 1 46,64 L44,64 A1,1 0 0 1 43,63 L43,53 A1,1 0 0 1 44,52 Z" />
+
+    <!-- Bar 2 (Taller center-left) -->
+    <path
+        android:fillColor="#E879F9"
+        android:pathData="M49,46 L51,46 A1,1 0 0 1 52,47 L52,69 A1,1 0 0 1 51,70 L49,70 A1,1 0 0 1 48,69 L48,47 A1,1 0 0 1 49,46 Z" />
+
+    <!-- Bar 3 (Tallest Center) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,42 L56,42 A1,1 0 0 1 57,43 L57,73 A1,1 0 0 1 56,74 L54,74 A1,1 0 0 1 53,73 L53,43 A1,1 0 0 1 54,42 Z" />
+
+    <!-- Bar 4 (Center-right) -->
+    <path
+        android:fillColor="#38BDF8"
+        android:pathData="M59,48 L61,48 A1,1 0 0 1 62,49 L62,67 A1,1 0 0 1 61,68 L59,68 A1,1 0 0 1 58,67 L58,49 A1,1 0 0 1 59,48 Z" />
+
+    <!-- Bar 5 -->
+    <path
+        android:fillColor="#34D399"
+        android:pathData="M64,54 L66,54 A1,1 0 0 1 67,55 L67,61 A1,1 0 0 1 66,62 L64,62 A1,1 0 0 1 63,61 L63,55 A1,1 0 0 1 64,54 Z" />
+
+</vector>
